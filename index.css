@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 14px;
+    border: 0;
+
+}
+
+.content {
+    border: 2px solid black;
+    margin: 30px;
+    padding: 50px;
+}
+
+.title {
+    margin-top: 40px;
+    width: 75%;
+    border-top: 2px solid black;
+}
+
+.title .title__heading {
+    font-size: 30px;
+}
+
+.about .about__address span {
+    display: block;
+}
+
+.about .about__position,
+.skills .skills__title,
+.education .education__title,
+.work .work__title,
+.socials .socials__title{
+    color: #4b964b;
+    font-size: 25px;
+}
+
+.education .education__university,
+.work .work__item .item__employer {
+    color: #4747df;
+}
+
+.education .education__date.education__date--italic,
+.work .work__item .item__date.item__date--italic {
+    font-style: italic;
+}
